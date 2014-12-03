@@ -1,0 +1,1076 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02DDBA9B4E7A1044C949D0FB /* eval.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 06035473202BE69E9FFD1D46 /* eval.cpp */; settings = {ATTRIBUTES = (); }; };
+		04305F54DA215E07552AEC28 /* solver_mg.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = BD6E9862B7066A09739390DC /* solver_mg.cpp */; settings = {ATTRIBUTES = (); }; };
+		069D05B0128AE5DC7EE31738 /* QtCore.framework in Frameworks & Libraries */ = {isa = PBXBuildFile; fileRef = 7BC2E65A5E699A5E5D834CA2 /* QtCore.framework */; };
+		0C6D4628EE0B0D1479A20551 /* AGL.framework in Frameworks & Libraries */ = {isa = PBXBuildFile; fileRef = C6766F86E49E9C8701C8E637 /* AGL.framework */; };
+		14F0E817F48BE13FD7EF9944 /* matdiafrac_blkcrs.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = E66956264F8F1D97A030B31D /* matdiafrac_blkcrs.cpp */; settings = {ATTRIBUTES = (); }; };
+		159E0E1F24C5CAFB11EEC2F3 /* preconditioner.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 4D634BA2387DEAB22BDCC7F8 /* preconditioner.cpp */; settings = {ATTRIBUTES = (); }; };
+		1E788605D34ABD63FC4770F3 /* mat_blkcrs.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = BCB62D638C6ABFB0D88AF46B /* mat_blkcrs.cpp */; settings = {ATTRIBUTES = (); }; };
+		1E8BC4CCB845378D5DB937E5 /* zsolver_ls_iter.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 331227C39B2E493A0AA3746E /* zsolver_ls_iter.cpp */; settings = {ATTRIBUTES = (); }; };
+		1F2DAD665EBF4C9517CEE6F4 /* eqn_dkt.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 989C6DEAFD60425F3BE43A63 /* eqn_dkt.cpp */; settings = {ATTRIBUTES = (); }; };
+		1F857E40A0FBFBDD2160F2DC /* eqn_linear_solid3d.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 3711538DF3A4482113DAAC28 /* eqn_linear_solid3d.cpp */; settings = {ATTRIBUTES = (); }; };
+		203B223BBCA7356FA710117B /* linearsystem.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 896BDF73315FCAEA856D6F08 /* linearsystem.cpp */; settings = {ATTRIBUTES = (); }; };
+		20AE43C8F7220BFBC4ACBAD4 /* ordering_blk.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = D89A79747A0AE70A8067EF80 /* ordering_blk.cpp */; settings = {ATTRIBUTES = (); }; };
+		2525F2FDF5BDD35B5D7D0B0A /* eqn_linear_solid2d.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 1083D9D3D404F576E6D60E3D /* eqn_linear_solid2d.cpp */; settings = {ATTRIBUTES = (); }; };
+		2ABC84DC7875CE70919D8E52 /* matfrac_blkcrs.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = D21E7C876977F56F2F3509BD /* matfrac_blkcrs.cpp */; settings = {ATTRIBUTES = (); }; };
+		32EFD083A39B72F108372E5E /* drawer_field_edge.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = BA9B71DAC98CB4999A5803E3 /* drawer_field_edge.cpp */; settings = {ATTRIBUTES = (); }; };
+		35666AD22E31962E7B9AD4D8 /* eqn_helmholtz.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 7A421CA5E17ECC1A9424EC7A /* eqn_helmholtz.cpp */; settings = {ATTRIBUTES = (); }; };
+		3FBC59D4ED4D2B613C3A272E /* drawer_cad.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 8918993DB0889452D59BEBB1 /* drawer_cad.cpp */; settings = {ATTRIBUTES = (); }; };
+		450A0D11527AF164AEFE7377 /* QtOpenGL.framework in Frameworks & Libraries */ = {isa = PBXBuildFile; fileRef = C374004D45E01156F931B37D /* QtOpenGL.framework */; };
+		454C2FEBD1D29B703E6FBEE4 /* solver_mat_iter.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 66E390B3BCDDC92877929B27 /* solver_mat_iter.cpp */; settings = {ATTRIBUTES = (); }; };
+		487613AEE9C464ADF0C81BDE /* drawer_msh.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 744966663BAFC543E1D4C75A /* drawer_msh.cpp */; settings = {ATTRIBUTES = (); }; };
+		501667F26B3C1FF6767A7C12 /* QtGui.framework in Frameworks & Libraries */ = {isa = PBXBuildFile; fileRef = 9B36DA7E32F0304E780E7972 /* QtGui.framework */; };
+		54E559F4FE527FDB44C24443 /* drawer_field_vector.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = C1A3AF4AE57A37DF211677E4 /* drawer_field_vector.cpp */; settings = {ATTRIBUTES = (); }; };
+		550630549443203CAFC7D708 /* drawer_gl_utility.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = D474FA655BF38137D8E2D871 /* drawer_gl_utility.cpp */; settings = {ATTRIBUTES = (); }; };
+		5C624DFE37B9F5ECCB2E8808 /* field_world.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 66708AED9F9118E749C4BF72 /* field_world.cpp */; settings = {ATTRIBUTES = (); }; };
+		5DC22538FF0F8A2B242B060D /* cad_obj2d.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 8CC5EAD1E755C2467BFDBE36 /* cad_obj2d.cpp */; settings = {ATTRIBUTES = (); }; };
+		60151BD7851DD3BB064C1B2F /* zmatdiafrac_blkcrs.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = B292DA0DEBCA8C4032173688 /* zmatdiafrac_blkcrs.cpp */; settings = {ATTRIBUTES = (); }; };
+		672A11DC5D81B08EFD1C75EF /* quaternion.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 061ED02B58DB5C7913C4F07A /* quaternion.cpp */; settings = {ATTRIBUTES = (); }; };
+		683D3EAC432CB0418D2016AC /* drawer_field_image_based_flow_vis.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = F60941040BE986BD46400F0D /* drawer_field_image_based_flow_vis.cpp */; settings = {ATTRIBUTES = (); }; };
+		698F9DD0672C678FAFD81999 /* eqn_advection_diffusion.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = AA43494FF4C24F26EC9122F1 /* eqn_advection_diffusion.cpp */; settings = {ATTRIBUTES = (); }; };
+		6BECA07F3CBF94FEBD75FCF7 /* ker_emat_tri.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 170E9E034A842C8A2C84970C /* ker_emat_tri.cpp */; settings = {ATTRIBUTES = (); }; };
+		70BB05866924ABCD8C1666A1 /* eqn_hyper.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 4A9F7678E9FC763110D72652 /* eqn_hyper.cpp */; settings = {ATTRIBUTES = (); }; };
+		741DF0C3D1D81C1FD550D418 /* zmat_blkcrs.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 440624937FC821FAECC73FBF /* zmat_blkcrs.cpp */; settings = {ATTRIBUTES = (); }; };
+		77D9016DA55CF08AA54272D5 /* matprolong_blkcrs.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 5DFAC99AFEF321001A230357 /* matprolong_blkcrs.cpp */; settings = {ATTRIBUTES = (); }; };
+		81F1963EC6A87CB04CF18AF3 /* matdiainv_blkdia.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = CD33A2D8A90254DB5B2F2717 /* matdiainv_blkdia.cpp */; settings = {ATTRIBUTES = (); }; };
+		8A0AEBCF3FBCE895F6EEED78 /* zmatdia_blkcrs.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = F3B8A49073978D217E88CF8A /* zmatdia_blkcrs.cpp */; settings = {ATTRIBUTES = (); }; };
+		905172714EB7FF573EDC1B38 /* matdia_blkcrs.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 11059FFB085F668D0361F966 /* matdia_blkcrs.cpp */; settings = {ATTRIBUTES = (); }; };
+		91511D160BED7BFEBCEC1D05 /* zvector_blk.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 2A3D421C7D0A38CE651E8040 /* zvector_blk.cpp */; settings = {ATTRIBUTES = (); }; };
+		9178A8D1C441651A5DE8DA8E /* mesh3d.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 9FBA59FC61179AB0D0F96B0B /* mesh3d.cpp */; settings = {ATTRIBUTES = (); }; };
+		92A57C47EAFD34A26C067EA0 /* drawer_field_streamline.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = E48145DFACF54CC19347E791 /* drawer_field_streamline.cpp */; settings = {ATTRIBUTES = (); }; };
+		92BBC34963EA55DFFB7137DA /* linearsystem_field.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 9C4A7EF567E1AF0F1028B529 /* linearsystem_field.cpp */; settings = {ATTRIBUTES = (); }; };
+		93B6FE0FCB1F51B3EE1BE409 /* mesh3d_extrude.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 348057E7CCD166E52C1641B0 /* mesh3d_extrude.cpp */; settings = {ATTRIBUTES = (); }; };
+		941396A4ED3B44368F318EA1 /* drawer.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = A00D436C6E45349B5487A0E7 /* drawer.cpp */; settings = {ATTRIBUTES = (); }; };
+		96FD29546D1AD495F4700ABF /* drawer_field.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 318AEC4AD0DBAC71B77CDBF5 /* drawer_field.cpp */; settings = {ATTRIBUTES = (); }; };
+		9BC69494D5A6877483B47567 /* eqnsys_scalar.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 42F3DDBA6FC68B56C6E8E9DA /* eqnsys_scalar.cpp */; settings = {ATTRIBUTES = (); }; };
+		9ECEE7EFAFFC740C891EEBD7 /* eqn_st_venant.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 0DBE7747D99CAE944E7BBA45 /* eqn_st_venant.cpp */; settings = {ATTRIBUTES = (); }; };
+		A11E9E5F16F877993E0C6B60 /* eqnsys_fluid.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 6704EA4027BCCED0EF5A4979 /* eqnsys_fluid.cpp */; settings = {ATTRIBUTES = (); }; };
+		A845EF096262B0A480F721D7 /* meshkernel3d.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 8F5E9299CC8824B45637427E /* meshkernel3d.cpp */; settings = {ATTRIBUTES = (); }; };
+		A916B711127F3CBD00EFA01C /* libdfm_core.dylib in Project Copy */ = {isa = PBXBuildFile; fileRef = A916B70F127F3CBD00EFA01C /* libdfm_core.dylib */; };
+		AA8724A860F15D35A947A31B /* zsolver_mat_iter.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 99B59B520E7E54EAE50841DE /* zsolver_mat_iter.cpp */; settings = {ATTRIBUTES = (); }; };
+		AADBD468E6415C0011D4E3DC /* meshkernel2d.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 4A90B639BB8071DB93726CA7 /* meshkernel2d.cpp */; settings = {ATTRIBUTES = (); }; };
+		AD387EBB97C84B3546E1BA39 /* cad_elem2d.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 33D3743D18A17D7A0648CABE /* cad_elem2d.cpp */; settings = {ATTRIBUTES = (); }; };
+		AD427C9E9D507CF14B87E413 /* linearsystem_fieldsave.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 96676724E2B6EBE0182AC818 /* linearsystem_fieldsave.cpp */; settings = {ATTRIBUTES = (); }; };
+		B41B486EAA17FDE5C30404C5 /* uglyfont.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 542A01B400909BBAD1740321 /* uglyfont.cpp */; settings = {ATTRIBUTES = (); }; };
+		B4C21B6B618C1EEBEBECD368 /* eqn_navier_stokes.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 64358955429FD581F4D36523 /* eqn_navier_stokes.cpp */; settings = {ATTRIBUTES = (); }; };
+		BA552666016DD50BC19EB11F /* eigen_lanczos.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 13FFA88961312E9E3B7937DF /* eigen_lanczos.cpp */; settings = {ATTRIBUTES = (); }; };
+		BCEF71E1EDFB18DA77DC750B /* OpenGL.framework in Frameworks & Libraries */ = {isa = PBXBuildFile; fileRef = DA18A6831232F53228631AD1 /* OpenGL.framework */; };
+		CA478ED7E3FD6D8E3261319F /* mesher3d.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = E8DD2091189900FCACF96911 /* mesher3d.cpp */; settings = {ATTRIBUTES = (); }; };
+		D63F3F6C6920AD7BDC18C5EA /* eqn_poisson.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 714C7C114DC75FF7D7B7792E /* eqn_poisson.cpp */; settings = {ATTRIBUTES = (); }; };
+		D962B8C3F4141E6EFAB12526 /* eqnsys_shell.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 2F82E6B290A72AD06EDDB434 /* eqnsys_shell.cpp */; settings = {ATTRIBUTES = (); }; };
+		DC426808FA2061CCAAF471F3 /* node_ary.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 89A986F002370BBCB88920A6 /* node_ary.cpp */; settings = {ATTRIBUTES = (); }; };
+		DD3A3231B9A900D2A02612C4 /* elem_ary.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 974771E0983C3B702A9BDD1C /* elem_ary.cpp */; settings = {ATTRIBUTES = (); }; };
+		E0616929AF793C90257546E9 /* vector_blk.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 981381C960910D7551A31E12 /* vector_blk.cpp */; settings = {ATTRIBUTES = (); }; };
+		E2856FCB4824C049ED07201E /* eqnsys.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 6F07B8115C7800815E9B5927 /* eqnsys.cpp */; settings = {ATTRIBUTES = (); }; };
+		E3E8DD671F0347F279AF1722 /* eqnsys_solid.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 9DA686B9CD755BDCA6FEBAB7 /* eqnsys_solid.cpp */; settings = {ATTRIBUTES = (); }; };
+		EA5083F3BBF5EB70A6E09AA0 /* zlinearsystem.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 4F02C5325241CE70E24DD1A6 /* zlinearsystem.cpp */; settings = {ATTRIBUTES = (); }; };
+		EA8CE292AE9FD909A153494F /* eqn_diffusion.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 0F68A343AC6BD434CA5A1EF3 /* eqn_diffusion.cpp */; settings = {ATTRIBUTES = (); }; };
+		EFF68D91C8428FA64116A2B7 /* brep.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 26D19C275B79D922E25C8EFE /* brep.cpp */; settings = {ATTRIBUTES = (); }; };
+		F1BEE89DD9F0F2485EA6ECB3 /* solver_ls_iter.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = B9CE36A9091E5986D4559C70 /* solver_ls_iter.cpp */; settings = {ATTRIBUTES = (); }; };
+		F1EA55AAF4F184025CD1249F /* drawer_field_face.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 788ECF20D30E38B6CC809509 /* drawer_field_face.cpp */; settings = {ATTRIBUTES = (); }; };
+		F294C8EA72AE5FD3DF3D183E /* vector3d.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = DC54959810DEFD4CA6AD3AD4 /* vector3d.cpp */; settings = {ATTRIBUTES = (); }; };
+		F7438DE31530178D8C60208A /* brep2d.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = D71CCEE82CB42411D1393E32 /* brep2d.cpp */; settings = {ATTRIBUTES = (); }; };
+		F91D119DFB260DEF34C8E776 /* mesher2d.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 8FEA5EED538D907BF6014D3F /* mesher2d.cpp */; settings = {ATTRIBUTES = (); }; };
+		FC61E1A992550B534D53CEE6 /* field.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 740301DCB75911EA9B60C59F /* field.cpp */; settings = {ATTRIBUTES = (); }; };
+		FCBCD42E8AFE5E0C461FB0F5 /* eqn_stokes.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = F9D498F84158B202EB7E86BA /* eqn_stokes.cpp */; settings = {ATTRIBUTES = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F6069D5A5DA8AA28EDB8B3C6 /* Project Copy */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /Users/nobuyuki/develop/DelFEM/lib;
+			dstSubfolderSpec = 0;
+			files = (
+				A916B711127F3CBD00EFA01C /* libdfm_core.dylib in Project Copy */,
+			);
+			name = "Project Copy";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		01103B87B13109EB38B51B8C /* node_ary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = node_ary.h; path = ../../include/delfem/node_ary.h; sourceTree = "<group>"; };
+		06035473202BE69E9FFD1D46 /* eval.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = eval.cpp; path = ../../src/femfield/eval.cpp; sourceTree = "<group>"; };
+		061ED02B58DB5C7913C4F07A /* quaternion.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = quaternion.cpp; path = ../../src/com/quaternion.cpp; sourceTree = "<group>"; };
+		0646A43EC452C209098F91CD /* eqn_advection_diffusion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = eqn_advection_diffusion.h; path = ../../include/delfem/femeqn/eqn_advection_diffusion.h; sourceTree = "<group>"; };
+		07AE4454662496A412B9AB16 /* diamat_blk.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = diamat_blk.h; path = ../../include/delfem/matvec/diamat_blk.h; sourceTree = "<group>"; };
+		0C71820DC9D8B3DFBA4CCFEB /* cad2d_interface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = cad2d_interface.h; path = ../../include/delfem/cad2d_interface.h; sourceTree = "<group>"; };
+		0D55C267F7C20231AF54930B /* drawer_field_vector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = drawer_field_vector.h; path = ../../include/delfem/drawer_field_vector.h; sourceTree = "<group>"; };
+		0D78C03D32AB01948D1D7868 /* zlinearsystem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = zlinearsystem.h; path = ../../include/delfem/femls/zlinearsystem.h; sourceTree = "<group>"; };
+		0DBE7747D99CAE944E7BBA45 /* eqn_st_venant.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = eqn_st_venant.cpp; path = ../../src/femeqn/eqn_st_venant.cpp; sourceTree = "<group>"; };
+		0E4DDDDE1B6475A84B9F1B12 /* eigen_lanczos.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = eigen_lanczos.h; path = ../../include/delfem/ls/eigen_lanczos.h; sourceTree = "<group>"; };
+		0F68A343AC6BD434CA5A1EF3 /* eqn_diffusion.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = eqn_diffusion.cpp; path = ../../src/femeqn/eqn_diffusion.cpp; sourceTree = "<group>"; };
+		0FB62E45CE4731423481B8BF /* drawer_field_edge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = drawer_field_edge.h; path = ../../include/delfem/drawer_field_edge.h; sourceTree = "<group>"; };
+		1083D9D3D404F576E6D60E3D /* eqn_linear_solid2d.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = eqn_linear_solid2d.cpp; path = ../../src/femeqn/eqn_linear_solid2d.cpp; sourceTree = "<group>"; };
+		11059FFB085F668D0361F966 /* matdia_blkcrs.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = matdia_blkcrs.cpp; path = ../../src/matvec/matdia_blkcrs.cpp; sourceTree = "<group>"; };
+		13FFA88961312E9E3B7937DF /* eigen_lanczos.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = eigen_lanczos.cpp; path = ../../src/ls/eigen_lanczos.cpp; sourceTree = "<group>"; };
+		15575245259C81DB56D6A210 /* mat_blkcrs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = mat_blkcrs.h; path = ../../include/delfem/matvec/mat_blkcrs.h; sourceTree = "<group>"; };
+		170E9E034A842C8A2C84970C /* ker_emat_tri.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = ker_emat_tri.cpp; path = ../../src/femeqn/ker_emat_tri.cpp; sourceTree = "<group>"; };
+		17CCCB4E9E057BE1BE82D84B /* eqn_hyper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = eqn_hyper.h; path = ../../include/delfem/femeqn/eqn_hyper.h; sourceTree = "<group>"; };
+		1829B9AAE8837759A041519F /* mesh3d.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = mesh3d.h; path = ../../include/delfem/mesh3d.h; sourceTree = "<group>"; };
+		1864BA341C1109E0E3D8529E /* zmat_blkcrs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = zmat_blkcrs.h; path = ../../include/delfem/matvec/zmat_blkcrs.h; sourceTree = "<group>"; };
+		1B9C6C1D62E60EF0561E6913 /* cad_com.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = cad_com.h; path = ../../include/delfem/cad_com.h; sourceTree = "<group>"; };
+		23ADF2E84C4F49DA03208CB1 /* zpreconditioner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = zpreconditioner.h; path = ../../include/delfem/femls/zpreconditioner.h; sourceTree = "<group>"; };
+		240A5D90EB0081871E14CE4B /* linearsystem_interface_eqnsys.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = linearsystem_interface_eqnsys.h; path = ../../include/delfem/linearsystem_interface_eqnsys.h; sourceTree = "<group>"; };
+		2579F6B6B3942484C76B6249 /* matdiafrac_blkcrs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = matdiafrac_blkcrs.h; path = ../../include/delfem/matvec/matdiafrac_blkcrs.h; sourceTree = "<group>"; };
+		26D19C275B79D922E25C8EFE /* brep.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = brep.cpp; path = ../../src/cad/brep.cpp; sourceTree = "<group>"; };
+		27433E5581C0AEA4F2D2C6C6 /* eqnsys_fluid.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = eqnsys_fluid.h; path = ../../include/delfem/eqnsys_fluid.h; sourceTree = "<group>"; };
+		2805F292A09F32BAB24EBF37 /* zsolver_mat_iter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = zsolver_mat_iter.h; path = ../../include/delfem/matvec/zsolver_mat_iter.h; sourceTree = "<group>"; };
+		29C7ACE5EA85BF00F339FC45 /* eqnsys_scalar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = eqnsys_scalar.h; path = ../../include/delfem/eqnsys_scalar.h; sourceTree = "<group>"; };
+		2A3D421C7D0A38CE651E8040 /* zvector_blk.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = zvector_blk.cpp; path = ../../src/matvec/zvector_blk.cpp; sourceTree = "<group>"; };
+		2AA0AE172D01D65DAB8AD931 /* linearsystem_interface_solver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = linearsystem_interface_solver.h; path = ../../include/delfem/ls/linearsystem_interface_solver.h; sourceTree = "<group>"; };
+		2AB5498C35E235D6873A7FEB /* solver_mat_iter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = solver_mat_iter.h; path = ../../include/delfem/matvec/solver_mat_iter.h; sourceTree = "<group>"; };
+		2E0869E8B9769C1315A4400F /* ker_emat_bar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ker_emat_bar.h; path = ../../include/delfem/femeqn/ker_emat_bar.h; sourceTree = "<group>"; };
+		2F82E6B290A72AD06EDDB434 /* eqnsys_shell.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = eqnsys_shell.cpp; path = ../../src/femeqn/eqnsys_shell.cpp; sourceTree = "<group>"; };
+		318AEC4AD0DBAC71B77CDBF5 /* drawer_field.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = drawer_field.cpp; path = ../../src/femfield/drawer_field.cpp; sourceTree = "<group>"; };
+		331227C39B2E493A0AA3746E /* zsolver_ls_iter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = zsolver_ls_iter.cpp; path = ../../src/femls/zsolver_ls_iter.cpp; sourceTree = "<group>"; };
+		33D3743D18A17D7A0648CABE /* cad_elem2d.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = cad_elem2d.cpp; path = ../../src/cad/cad_elem2d.cpp; sourceTree = "<group>"; };
+		348057E7CCD166E52C1641B0 /* mesh3d_extrude.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = mesh3d_extrude.cpp; path = ../../src/msh/mesh3d_extrude.cpp; sourceTree = "<group>"; };
+		3711538DF3A4482113DAAC28 /* eqn_linear_solid3d.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = eqn_linear_solid3d.cpp; path = ../../src/femeqn/eqn_linear_solid3d.cpp; sourceTree = "<group>"; };
+		3F995643AD3AA6D74CD209EA /* eqnsys_solid.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = eqnsys_solid.h; path = ../../include/delfem/eqnsys_solid.h; sourceTree = "<group>"; };
+		40226C4714A8368746DD9219 /* eval.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = eval.h; path = ../../include/delfem/eval.h; sourceTree = "<group>"; };
+		41D2E6B4EBDD76FF78450148 /* ker_emat_tet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ker_emat_tet.h; path = ../../include/delfem/femeqn/ker_emat_tet.h; sourceTree = "<group>"; };
+		42F3DDBA6FC68B56C6E8E9DA /* eqnsys_scalar.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = eqnsys_scalar.cpp; path = ../../src/femeqn/eqnsys_scalar.cpp; sourceTree = "<group>"; };
+		440624937FC821FAECC73FBF /* zmat_blkcrs.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = zmat_blkcrs.cpp; path = ../../src/matvec/zmat_blkcrs.cpp; sourceTree = "<group>"; };
+		4571E33E1A04AF96E03CD270 /* uglyfont.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = uglyfont.h; path = ../../include/delfem/uglyfont.h; sourceTree = "<group>"; };
+		460B1DB46C7776DD51ACD38A /* matdia_blkcrs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = matdia_blkcrs.h; path = ../../include/delfem/matvec/matdia_blkcrs.h; sourceTree = "<group>"; };
+		4A90B639BB8071DB93726CA7 /* meshkernel2d.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = meshkernel2d.cpp; path = ../../src/msh/meshkernel2d.cpp; sourceTree = "<group>"; };
+		4A9F7678E9FC763110D72652 /* eqn_hyper.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = eqn_hyper.cpp; path = ../../src/femeqn/eqn_hyper.cpp; sourceTree = "<group>"; };
+		4CA654210F9C72F183BCD55A /* drawer_field.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = drawer_field.h; path = ../../include/delfem/drawer_field.h; sourceTree = "<group>"; };
+		4D634BA2387DEAB22BDCC7F8 /* preconditioner.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = preconditioner.cpp; path = ../../src/ls/preconditioner.cpp; sourceTree = "<group>"; };
+		4DD676B20522C2A4199DC6AF /* ordering_blk.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ordering_blk.h; path = ../../include/delfem/matvec/ordering_blk.h; sourceTree = "<group>"; };
+		4F02C5325241CE70E24DD1A6 /* zlinearsystem.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = zlinearsystem.cpp; path = ../../src/femls/zlinearsystem.cpp; sourceTree = "<group>"; };
+		542A01B400909BBAD1740321 /* uglyfont.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = uglyfont.cpp; path = ../../src/com/uglyfont.cpp; sourceTree = "<group>"; };
+		5643457127E5F6E40BEE72DB /* mesher2d.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = mesher2d.h; path = ../../include/delfem/mesher2d.h; sourceTree = "<group>"; };
+		5934DAE314686240573F3213 /* objset_cad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = objset_cad.h; path = ../../include/delfem/cad/objset_cad.h; sourceTree = "<group>"; };
+		5DFAC99AFEF321001A230357 /* matprolong_blkcrs.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = matprolong_blkcrs.cpp; path = ../../src/matvec/matprolong_blkcrs.cpp; sourceTree = "<group>"; };
+		5EBF44E28EDDEAF09C4AE1D2 /* preconditioner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = preconditioner.h; path = ../../include/delfem/ls/preconditioner.h; sourceTree = "<group>"; };
+		5ECEAA47618C0466B23C6499 /* linearsystem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = linearsystem.h; path = ../../include/delfem/ls/linearsystem.h; sourceTree = "<group>"; };
+		61E688332ED55003327BA80C /* field_world.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = field_world.h; path = ../../include/delfem/field_world.h; sourceTree = "<group>"; };
+		64358955429FD581F4D36523 /* eqn_navier_stokes.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = eqn_navier_stokes.cpp; path = ../../src/femeqn/eqn_navier_stokes.cpp; sourceTree = "<group>"; };
+		64990BD355C371FFA1A41E50 /* quaternion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = quaternion.h; path = ../../include/delfem/quaternion.h; sourceTree = "<group>"; };
+		66708AED9F9118E749C4BF72 /* field_world.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = field_world.cpp; path = ../../src/femfield/field_world.cpp; sourceTree = "<group>"; };
+		6687DAB08FCF4FBE3F95B661 /* vector3d.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = vector3d.h; path = ../../include/delfem/vector3d.h; sourceTree = "<group>"; };
+		66E390B3BCDDC92877929B27 /* solver_mat_iter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = solver_mat_iter.cpp; path = ../../src/matvec/solver_mat_iter.cpp; sourceTree = "<group>"; };
+		6704EA4027BCCED0EF5A4979 /* eqnsys_fluid.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = eqnsys_fluid.cpp; path = ../../src/femeqn/eqnsys_fluid.cpp; sourceTree = "<group>"; };
+		69FAD2EA271D5CB6E2AE8149 /* brep.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = brep.h; path = ../../include/delfem/cad/brep.h; sourceTree = "<group>"; };
+		6B845325E640C4C5916E02F9 /* eqnsys_shell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = eqnsys_shell.h; path = ../../include/delfem/eqnsys_shell.h; sourceTree = "<group>"; };
+		6D2A7358D50478E67F776ECF /* cad_obj2d.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = cad_obj2d.h; path = ../../include/delfem/cad_obj2d.h; sourceTree = "<group>"; };
+		6DEE8E96033E2718D48E0EFE /* matfrac_blkcrs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = matfrac_blkcrs.h; path = ../../include/delfem/matvec/matfrac_blkcrs.h; sourceTree = "<group>"; };
+		6F07B8115C7800815E9B5927 /* eqnsys.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = eqnsys.cpp; path = ../../src/femeqn/eqnsys.cpp; sourceTree = "<group>"; };
+		706410A1B73F55FEB6227F7C /* zmatprecond_blk.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = zmatprecond_blk.h; path = ../../include/delfem/matvec/zmatprecond_blk.h; sourceTree = "<group>"; };
+		70D5B4539902C221AAB86282 /* solver_ls_iter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = solver_ls_iter.h; path = ../../include/delfem/ls/solver_ls_iter.h; sourceTree = "<group>"; };
+		714C7C114DC75FF7D7B7792E /* eqn_poisson.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = eqn_poisson.cpp; path = ../../src/femeqn/eqn_poisson.cpp; sourceTree = "<group>"; };
+		7301BD9042D5CD29FE70B98D /* zsolver_ls_iter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = zsolver_ls_iter.h; path = ../../include/delfem/femls/zsolver_ls_iter.h; sourceTree = "<group>"; };
+		740301DCB75911EA9B60C59F /* field.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = field.cpp; path = ../../src/femfield/field.cpp; sourceTree = "<group>"; };
+		744966663BAFC543E1D4C75A /* drawer_msh.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = drawer_msh.cpp; path = ../../src/msh/drawer_msh.cpp; sourceTree = "<group>"; };
+		760443E92DB198FB19EC7ADA /* drawer_field_image_based_flow_vis.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = drawer_field_image_based_flow_vis.h; path = ../../include/delfem/drawer_field_image_based_flow_vis.h; sourceTree = "<group>"; };
+		788ECF20D30E38B6CC809509 /* drawer_field_face.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = drawer_field_face.cpp; path = ../../src/femfield/drawer_field_face.cpp; sourceTree = "<group>"; };
+		79E91FE0E67CAF4DC5FF61A3 /* serialize.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = serialize.h; path = ../../include/delfem/serialize.h; sourceTree = "<group>"; };
+		7A421CA5E17ECC1A9424EC7A /* eqn_helmholtz.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = eqn_helmholtz.cpp; path = ../../src/femeqn/eqn_helmholtz.cpp; sourceTree = "<group>"; };
+		7A80802988C0C3A93458355A /* matprecond_blk.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = matprecond_blk.h; path = ../../include/delfem/matvec/matprecond_blk.h; sourceTree = "<group>"; };
+		7BBD9A8EF89628C6BC5F3C8C /* zmatdia_blkcrs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = zmatdia_blkcrs.h; path = ../../include/delfem/matvec/zmatdia_blkcrs.h; sourceTree = "<group>"; };
+		7BC2E65A5E699A5E5D834CA2 /* QtCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtCore.framework; path = /Library/Frameworks/QtCore.framework; sourceTree = "<absolute>"; };
+		7CCD7BF68B3D9F2C68B14BDC /* objset.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = objset.h; path = ../../include/delfem/objset.h; sourceTree = "<group>"; };
+		7CF3B3AB7BDE2A2A1AA3D594 /* drawer_field_face.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = drawer_field_face.h; path = ../../include/delfem/drawer_field_face.h; sourceTree = "<group>"; };
+		7D6EDA2CC869CABCCFD9899A /* meshkernel3d.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = meshkernel3d.h; path = ../../include/delfem/msh/meshkernel3d.h; sourceTree = "<group>"; };
+		7EE39B529C3DE2E668F5AFB5 /* camera.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = camera.h; path = ../../include/delfem/camera.h; sourceTree = "<group>"; };
+		8631F1CE22F03A62CC609D00 /* linearsystem_field.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = linearsystem_field.h; path = ../../include/delfem/femls/linearsystem_field.h; sourceTree = "<group>"; };
+		87A100C0862A63E97D82CB5F /* solver_mg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = solver_mg.h; path = ../../include/delfem/matvec/solver_mg.h; sourceTree = "<group>"; };
+		8918993DB0889452D59BEBB1 /* drawer_cad.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = drawer_cad.cpp; path = ../../src/cad/drawer_cad.cpp; sourceTree = "<group>"; };
+		896BDF73315FCAEA856D6F08 /* linearsystem.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = linearsystem.cpp; path = ../../src/ls/linearsystem.cpp; sourceTree = "<group>"; };
+		89A986F002370BBCB88920A6 /* node_ary.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = node_ary.cpp; path = ../../src/femfield/node_ary.cpp; sourceTree = "<group>"; };
+		8CC5EAD1E755C2467BFDBE36 /* cad_obj2d.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = cad_obj2d.cpp; path = ../../src/cad/cad_obj2d.cpp; sourceTree = "<group>"; };
+		8D42D4499B3B2CAF8B88384C /* eqn_stokes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = eqn_stokes.h; path = ../../include/delfem/femeqn/eqn_stokes.h; sourceTree = "<group>"; };
+		8F5E9299CC8824B45637427E /* meshkernel3d.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = meshkernel3d.cpp; path = ../../src/msh/meshkernel3d.cpp; sourceTree = "<group>"; };
+		8FCEA16B86EBD1762D614AF6 /* linearsystem_fieldsave.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = linearsystem_fieldsave.h; path = ../../include/delfem/femls/linearsystem_fieldsave.h; sourceTree = "<group>"; };
+		8FEA5EED538D907BF6014D3F /* mesher2d.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = mesher2d.cpp; path = ../../src/msh/mesher2d.cpp; sourceTree = "<group>"; };
+		91A8165072A00FE58E119654 /* brep2d.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = brep2d.h; path = ../../include/delfem/cad/brep2d.h; sourceTree = "<group>"; };
+		9395B78432B0CBE4B21ADFCB /* field.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = field.h; path = ../../include/delfem/field.h; sourceTree = "<group>"; };
+		9556BFC026A8B6C2EE1847ED /* eqn_helmholtz.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = eqn_helmholtz.h; path = ../../include/delfem/femeqn/eqn_helmholtz.h; sourceTree = "<group>"; };
+		96676724E2B6EBE0182AC818 /* linearsystem_fieldsave.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = linearsystem_fieldsave.cpp; path = ../../src/femls/linearsystem_fieldsave.cpp; sourceTree = "<group>"; };
+		974771E0983C3B702A9BDD1C /* elem_ary.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = elem_ary.cpp; path = ../../src/femfield/elem_ary.cpp; sourceTree = "<group>"; };
+		981381C960910D7551A31E12 /* vector_blk.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = vector_blk.cpp; path = ../../src/matvec/vector_blk.cpp; sourceTree = "<group>"; };
+		989C6DEAFD60425F3BE43A63 /* eqn_dkt.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = eqn_dkt.cpp; path = ../../src/femeqn/eqn_dkt.cpp; sourceTree = "<group>"; };
+		99B59B520E7E54EAE50841DE /* zsolver_mat_iter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = zsolver_mat_iter.cpp; path = ../../src/matvec/zsolver_mat_iter.cpp; sourceTree = "<group>"; };
+		9B36DA7E32F0304E780E7972 /* QtGui.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtGui.framework; path = /Library/Frameworks/QtGui.framework; sourceTree = "<absolute>"; };
+		9C4A7EF567E1AF0F1028B529 /* linearsystem_field.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = linearsystem_field.cpp; path = ../../src/femls/linearsystem_field.cpp; sourceTree = "<group>"; };
+		9DA686B9CD755BDCA6FEBAB7 /* eqnsys_solid.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = eqnsys_solid.cpp; path = ../../src/femeqn/eqnsys_solid.cpp; sourceTree = "<group>"; };
+		9DEDD0D81DEDAA9332D3B42E /* eqn_diffusion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = eqn_diffusion.h; path = ../../include/delfem/femeqn/eqn_diffusion.h; sourceTree = "<group>"; };
+		9FBA59FC61179AB0D0F96B0B /* mesh3d.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = mesh3d.cpp; path = ../../src/msh/mesh3d.cpp; sourceTree = "<group>"; };
+		A00D436C6E45349B5487A0E7 /* drawer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = drawer.cpp; path = ../../src/com/drawer.cpp; sourceTree = "<group>"; };
+		A0197D190F2561D14CBFE952 /* eqn_linear_solid2d.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = eqn_linear_solid2d.h; path = ../../include/delfem/femeqn/eqn_linear_solid2d.h; sourceTree = "<group>"; };
+		A3BB3D91CDBBE51CA4A07773 /* eqnsys.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = eqnsys.h; path = ../../include/delfem/eqnsys.h; sourceTree = "<group>"; };
+		A9029F1E10D113C2EF7C2A23 /* mesh_primitive.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = mesh_primitive.h; path = ../../include/delfem/mesh_primitive.h; sourceTree = "<group>"; };
+		A916B70F127F3CBD00EFA01C /* libdfm_core.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libdfm_core.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA43494FF4C24F26EC9122F1 /* eqn_advection_diffusion.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = eqn_advection_diffusion.cpp; path = ../../src/femeqn/eqn_advection_diffusion.cpp; sourceTree = "<group>"; };
+		B22BCE9BF0AB0635583B72EC /* zvector_blk.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = zvector_blk.h; path = ../../include/delfem/matvec/zvector_blk.h; sourceTree = "<group>"; };
+		B292DA0DEBCA8C4032173688 /* zmatdiafrac_blkcrs.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = zmatdiafrac_blkcrs.cpp; path = ../../src/matvec/zmatdiafrac_blkcrs.cpp; sourceTree = "<group>"; };
+		B33E0904B8FE9C1FED8E534D /* drawer_gl_utility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = drawer_gl_utility.h; path = ../../include/delfem/drawer_gl_utility.h; sourceTree = "<group>"; };
+		B9CE36A9091E5986D4559C70 /* solver_ls_iter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = solver_ls_iter.cpp; path = ../../src/ls/solver_ls_iter.cpp; sourceTree = "<group>"; };
+		BA607D386D2EFE88444BE82A /* drawer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = drawer.h; path = ../../include/delfem/drawer.h; sourceTree = "<group>"; };
+		BA9B71DAC98CB4999A5803E3 /* drawer_field_edge.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = drawer_field_edge.cpp; path = ../../src/femfield/drawer_field_edge.cpp; sourceTree = "<group>"; };
+		BB2338D84476CCD548A3C001 /* vector2d.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = vector2d.h; path = ../../include/delfem/vector2d.h; sourceTree = "<group>"; };
+		BB502302919E225ADEABC18E /* zmatdiafrac_blkcrs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = zmatdiafrac_blkcrs.h; path = ../../include/delfem/matvec/zmatdiafrac_blkcrs.h; sourceTree = "<group>"; };
+		BCB62D638C6ABFB0D88AF46B /* mat_blkcrs.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = mat_blkcrs.cpp; path = ../../src/matvec/mat_blkcrs.cpp; sourceTree = "<group>"; };
+		BD6E9862B7066A09739390DC /* solver_mg.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = solver_mg.cpp; path = ../../src/matvec/solver_mg.cpp; sourceTree = "<group>"; };
+		BF869785B5A0F2D68866F926 /* eqn_navier_stokes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = eqn_navier_stokes.h; path = ../../include/delfem/femeqn/eqn_navier_stokes.h; sourceTree = "<group>"; };
+		C1A3AF4AE57A37DF211677E4 /* drawer_field_vector.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = drawer_field_vector.cpp; path = ../../src/femfield/drawer_field_vector.cpp; sourceTree = "<group>"; };
+		C374004D45E01156F931B37D /* QtOpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtOpenGL.framework; path = /Library/Frameworks/QtOpenGL.framework; sourceTree = "<absolute>"; };
+		C4BA1B707CABD0BC4628EA7D /* eqn_st_venant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = eqn_st_venant.h; path = ../../include/delfem/femeqn/eqn_st_venant.h; sourceTree = "<group>"; };
+		C6766F86E49E9C8701C8E637 /* AGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AGL.framework; path = /System/Library/Frameworks/AGL.framework; sourceTree = "<absolute>"; };
+		C779F286ED8CCA9BB55A1B53 /* ker_emat_hex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ker_emat_hex.h; path = ../../include/delfem/femeqn/ker_emat_hex.h; sourceTree = "<group>"; };
+		C7F75DFE67C9FD04675CBC40 /* eqn_linear_solid3d.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = eqn_linear_solid3d.h; path = ../../include/delfem/femeqn/eqn_linear_solid3d.h; sourceTree = "<group>"; };
+		C8D28B15AD2729B9ABAB8385 /* mesh_interface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = mesh_interface.h; path = ../../include/delfem/mesh_interface.h; sourceTree = "<group>"; };
+		CD33A2D8A90254DB5B2F2717 /* matdiainv_blkdia.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = matdiainv_blkdia.cpp; path = ../../src/matvec/matdiainv_blkdia.cpp; sourceTree = "<group>"; };
+		CE8791B32C06376F4F54D2B1 /* matprolong_blkcrs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = matprolong_blkcrs.h; path = ../../include/delfem/matvec/matprolong_blkcrs.h; sourceTree = "<group>"; };
+		CEFDDE1C7BA47DD94834C33D /* cad_elem2d.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = cad_elem2d.h; path = ../../include/delfem/cad/cad_elem2d.h; sourceTree = "<group>"; };
+		D0A9D4C42D4FFEF341F305FF /* ker_emat_tri.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ker_emat_tri.h; path = ../../include/delfem/femeqn/ker_emat_tri.h; sourceTree = "<group>"; };
+		D21E7C876977F56F2F3509BD /* matfrac_blkcrs.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = matfrac_blkcrs.cpp; path = ../../src/matvec/matfrac_blkcrs.cpp; sourceTree = "<group>"; };
+		D358B027EFBDEC04D9D373F0 /* qtlib_core.pro */ = {isa = PBXFileReference; lastKnownFileType = text; path = qtlib_core.pro; sourceTree = "<group>"; };
+		D474FA655BF38137D8E2D871 /* drawer_gl_utility.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = drawer_gl_utility.cpp; path = ../../src/com/drawer_gl_utility.cpp; sourceTree = "<group>"; };
+		D71CCEE82CB42411D1393E32 /* brep2d.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = brep2d.cpp; path = ../../src/cad/brep2d.cpp; sourceTree = "<group>"; };
+		D89A79747A0AE70A8067EF80 /* ordering_blk.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = ordering_blk.cpp; path = ../../src/matvec/ordering_blk.cpp; sourceTree = "<group>"; };
+		DA18A6831232F53228631AD1 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		DC54959810DEFD4CA6AD3AD4 /* vector3d.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = vector3d.cpp; path = ../../src/com/vector3d.cpp; sourceTree = "<group>"; };
+		DEA629E249C210FDBAF91B8B /* complex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = complex.h; path = ../../include/delfem/complex.h; sourceTree = "<group>"; };
+		E44439B14CD0149CE5FB4FA8 /* ker_emat_quad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ker_emat_quad.h; path = ../../include/delfem/femeqn/ker_emat_quad.h; sourceTree = "<group>"; };
+		E48145DFACF54CC19347E791 /* drawer_field_streamline.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = drawer_field_streamline.cpp; path = ../../src/femfield/drawer_field_streamline.cpp; sourceTree = "<group>"; };
+		E4B52598D2D929F0067AE634 /* drawer_cad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = drawer_cad.h; path = ../../include/delfem/drawer_cad.h; sourceTree = "<group>"; };
+		E66956264F8F1D97A030B31D /* matdiafrac_blkcrs.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = matdiafrac_blkcrs.cpp; path = ../../src/matvec/matdiafrac_blkcrs.cpp; sourceTree = "<group>"; };
+		E8B1E7ADF60BC3D1E9C61CDA /* drawer_field_streamline.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = drawer_field_streamline.h; path = ../../include/delfem/drawer_field_streamline.h; sourceTree = "<group>"; };
+		E8DD2091189900FCACF96911 /* mesher3d.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = mesher3d.cpp; path = ../../src/msh/mesher3d.cpp; sourceTree = "<group>"; };
+		E98D9B007411D6E0D94C30B0 /* elem_ary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = elem_ary.h; path = ../../include/delfem/elem_ary.h; sourceTree = "<group>"; };
+		EB51FF98B4DE1722C5336995 /* eqn_poisson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = eqn_poisson.h; path = ../../include/delfem/femeqn/eqn_poisson.h; sourceTree = "<group>"; };
+		ED6688C2766138BC3038AF32 /* ker_mat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ker_mat.h; path = ../../include/delfem/matvec/ker_mat.h; sourceTree = "<group>"; };
+		EF1C09D495EFBCF3A6AC3760 /* matdiainv_blkdia.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = matdiainv_blkdia.h; path = ../../include/delfem/matvec/matdiainv_blkdia.h; sourceTree = "<group>"; };
+		F2C459AA349181A7FA6E81EE /* indexed_array.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = indexed_array.h; path = ../../include/delfem/indexed_array.h; sourceTree = "<group>"; };
+		F3B8A49073978D217E88CF8A /* zmatdia_blkcrs.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = zmatdia_blkcrs.cpp; path = ../../src/matvec/zmatdia_blkcrs.cpp; sourceTree = "<group>"; };
+		F48D07085FE21D1F5443217E /* meshkernel2d.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = meshkernel2d.h; path = ../../include/delfem/msh/meshkernel2d.h; sourceTree = "<group>"; };
+		F60941040BE986BD46400F0D /* drawer_field_image_based_flow_vis.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = drawer_field_image_based_flow_vis.cpp; path = ../../src/femfield/drawer_field_image_based_flow_vis.cpp; sourceTree = "<group>"; };
+		F6558FD28B13B988EAF076AC /* eqn_dkt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = eqn_dkt.h; path = ../../include/delfem/femeqn/eqn_dkt.h; sourceTree = "<group>"; };
+		F9D498F84158B202EB7E86BA /* eqn_stokes.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = eqn_stokes.cpp; path = ../../src/femeqn/eqn_stokes.cpp; sourceTree = "<group>"; };
+		FE5D24776B8CDC9BD4F9DDC1 /* drawer_msh.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = drawer_msh.h; path = ../../include/delfem/drawer_msh.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A1043669E6E5A7426EA502A /* Frameworks & Libraries */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				450A0D11527AF164AEFE7377 /* QtOpenGL.framework in Frameworks & Libraries */,
+				501667F26B3C1FF6767A7C12 /* QtGui.framework in Frameworks & Libraries */,
+				069D05B0128AE5DC7EE31738 /* QtCore.framework in Frameworks & Libraries */,
+				BCEF71E1EDFB18DA77DC750B /* OpenGL.framework in Frameworks & Libraries */,
+				0C6D4628EE0B0D1479A20551 /* AGL.framework in Frameworks & Libraries */,
+			);
+			name = "Frameworks & Libraries";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05596AB53D8D521C69802C27 /* dfm_core */ = {
+			isa = PBXGroup;
+			children = (
+				FB61758D0F0FDA4BA867C3D5 /* Sources */,
+				883D7615C4D2DE3FA1218F12 /* Headers */,
+				7CABE3C80E79AD2B307756D2 /* Sources [qmake] */,
+				ED1E82605DD74B483AF3C982 /* External Frameworks and Libraries */,
+				A916B710127F3CBD00EFA01C /* Products */,
+			);
+			name = dfm_core;
+			sourceTree = "<group>";
+		};
+		07488B5E65364584B442B437 /* matvec */ = {
+			isa = PBXGroup;
+			children = (
+				E66956264F8F1D97A030B31D /* matdiafrac_blkcrs.cpp */,
+				11059FFB085F668D0361F966 /* matdia_blkcrs.cpp */,
+				D21E7C876977F56F2F3509BD /* matfrac_blkcrs.cpp */,
+				BCB62D638C6ABFB0D88AF46B /* mat_blkcrs.cpp */,
+				981381C960910D7551A31E12 /* vector_blk.cpp */,
+				66E390B3BCDDC92877929B27 /* solver_mat_iter.cpp */,
+				D89A79747A0AE70A8067EF80 /* ordering_blk.cpp */,
+				5DFAC99AFEF321001A230357 /* matprolong_blkcrs.cpp */,
+				CD33A2D8A90254DB5B2F2717 /* matdiainv_blkdia.cpp */,
+				BD6E9862B7066A09739390DC /* solver_mg.cpp */,
+				2A3D421C7D0A38CE651E8040 /* zvector_blk.cpp */,
+				99B59B520E7E54EAE50841DE /* zsolver_mat_iter.cpp */,
+				B292DA0DEBCA8C4032173688 /* zmatdiafrac_blkcrs.cpp */,
+				F3B8A49073978D217E88CF8A /* zmatdia_blkcrs.cpp */,
+				440624937FC821FAECC73FBF /* zmat_blkcrs.cpp */,
+			);
+			name = matvec;
+			sourceTree = "<group>";
+		};
+		224019A18C6B1708E4F7A1B1 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				9A1A885DB2D9A1A8791E253D /* delfem */,
+			);
+			name = include;
+			sourceTree = "<group>";
+		};
+		25B9405EAA1C0E5445944989 /* cad */ = {
+			isa = PBXGroup;
+			children = (
+				91A8165072A00FE58E119654 /* brep2d.h */,
+				69FAD2EA271D5CB6E2AE8149 /* brep.h */,
+				5934DAE314686240573F3213 /* objset_cad.h */,
+				CEFDDE1C7BA47DD94834C33D /* cad_elem2d.h */,
+			);
+			name = cad;
+			sourceTree = "<group>";
+		};
+		307153D2AC6B27C80259743F /* femls */ = {
+			isa = PBXGroup;
+			children = (
+				331227C39B2E493A0AA3746E /* zsolver_ls_iter.cpp */,
+				4F02C5325241CE70E24DD1A6 /* zlinearsystem.cpp */,
+				96676724E2B6EBE0182AC818 /* linearsystem_fieldsave.cpp */,
+				9C4A7EF567E1AF0F1028B529 /* linearsystem_field.cpp */,
+			);
+			name = femls;
+			sourceTree = "<group>";
+		};
+		3FC9F49D9429CD3AD5375FEB /* msh */ = {
+			isa = PBXGroup;
+			children = (
+				F48D07085FE21D1F5443217E /* meshkernel2d.h */,
+				7D6EDA2CC869CABCCFD9899A /* meshkernel3d.h */,
+			);
+			name = msh;
+			sourceTree = "<group>";
+		};
+		43A3E14E24DD393782C4CBB4 /* ls */ = {
+			isa = PBXGroup;
+			children = (
+				5ECEAA47618C0466B23C6499 /* linearsystem.h */,
+				2AA0AE172D01D65DAB8AD931 /* linearsystem_interface_solver.h */,
+				70D5B4539902C221AAB86282 /* solver_ls_iter.h */,
+				5EBF44E28EDDEAF09C4AE1D2 /* preconditioner.h */,
+				0E4DDDDE1B6475A84B9F1B12 /* eigen_lanczos.h */,
+			);
+			name = ls;
+			sourceTree = "<group>";
+		};
+		4458B98565818D7E2682FA2D /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				E11BEA6A53EB481066C2098B /* .. */,
+			);
+			name = ..;
+			sourceTree = "<group>";
+		};
+		5E3E8085F2E80B7F77BBB2C9 /* femeqn */ = {
+			isa = PBXGroup;
+			children = (
+				170E9E034A842C8A2C84970C /* ker_emat_tri.cpp */,
+				714C7C114DC75FF7D7B7792E /* eqn_poisson.cpp */,
+				0F68A343AC6BD434CA5A1EF3 /* eqn_diffusion.cpp */,
+				AA43494FF4C24F26EC9122F1 /* eqn_advection_diffusion.cpp */,
+				0DBE7747D99CAE944E7BBA45 /* eqn_st_venant.cpp */,
+				1083D9D3D404F576E6D60E3D /* eqn_linear_solid2d.cpp */,
+				3711538DF3A4482113DAAC28 /* eqn_linear_solid3d.cpp */,
+				4A9F7678E9FC763110D72652 /* eqn_hyper.cpp */,
+				64358955429FD581F4D36523 /* eqn_navier_stokes.cpp */,
+				F9D498F84158B202EB7E86BA /* eqn_stokes.cpp */,
+				989C6DEAFD60425F3BE43A63 /* eqn_dkt.cpp */,
+				7A421CA5E17ECC1A9424EC7A /* eqn_helmholtz.cpp */,
+				6F07B8115C7800815E9B5927 /* eqnsys.cpp */,
+				42F3DDBA6FC68B56C6E8E9DA /* eqnsys_scalar.cpp */,
+				2F82E6B290A72AD06EDDB434 /* eqnsys_shell.cpp */,
+				6704EA4027BCCED0EF5A4979 /* eqnsys_fluid.cpp */,
+				9DA686B9CD755BDCA6FEBAB7 /* eqnsys_solid.cpp */,
+			);
+			name = femeqn;
+			sourceTree = "<group>";
+		};
+		66A234DDFCCF28C678DA6B91 /* ls */ = {
+			isa = PBXGroup;
+			children = (
+				4D634BA2387DEAB22BDCC7F8 /* preconditioner.cpp */,
+				896BDF73315FCAEA856D6F08 /* linearsystem.cpp */,
+				B9CE36A9091E5986D4559C70 /* solver_ls_iter.cpp */,
+				13FFA88961312E9E3B7937DF /* eigen_lanczos.cpp */,
+			);
+			name = ls;
+			sourceTree = "<group>";
+		};
+		749A360543F24CD667C366E5 /* cad */ = {
+			isa = PBXGroup;
+			children = (
+				8CC5EAD1E755C2467BFDBE36 /* cad_obj2d.cpp */,
+				33D3743D18A17D7A0648CABE /* cad_elem2d.cpp */,
+				26D19C275B79D922E25C8EFE /* brep.cpp */,
+				8918993DB0889452D59BEBB1 /* drawer_cad.cpp */,
+				D71CCEE82CB42411D1393E32 /* brep2d.cpp */,
+			);
+			name = cad;
+			sourceTree = "<group>";
+		};
+		7CABE3C80E79AD2B307756D2 /* Sources [qmake] */ = {
+			isa = PBXGroup;
+			children = (
+				D358B027EFBDEC04D9D373F0 /* qtlib_core.pro */,
+			);
+			name = "Sources [qmake]";
+			sourceTree = "<group>";
+		};
+		87104C304DE73E878476BB4C /* femfield */ = {
+			isa = PBXGroup;
+			children = (
+				89A986F002370BBCB88920A6 /* node_ary.cpp */,
+				66708AED9F9118E749C4BF72 /* field_world.cpp */,
+				740301DCB75911EA9B60C59F /* field.cpp */,
+				06035473202BE69E9FFD1D46 /* eval.cpp */,
+				974771E0983C3B702A9BDD1C /* elem_ary.cpp */,
+				318AEC4AD0DBAC71B77CDBF5 /* drawer_field.cpp */,
+				C1A3AF4AE57A37DF211677E4 /* drawer_field_vector.cpp */,
+				BA9B71DAC98CB4999A5803E3 /* drawer_field_edge.cpp */,
+				788ECF20D30E38B6CC809509 /* drawer_field_face.cpp */,
+				F60941040BE986BD46400F0D /* drawer_field_image_based_flow_vis.cpp */,
+				E48145DFACF54CC19347E791 /* drawer_field_streamline.cpp */,
+			);
+			name = femfield;
+			sourceTree = "<group>";
+		};
+		883D7615C4D2DE3FA1218F12 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				4458B98565818D7E2682FA2D /* .. */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		9A1A885DB2D9A1A8791E253D /* delfem */ = {
+			isa = PBXGroup;
+			children = (
+				7EE39B529C3DE2E668F5AFB5 /* camera.h */,
+				B33E0904B8FE9C1FED8E534D /* drawer_gl_utility.h */,
+				BA607D386D2EFE88444BE82A /* drawer.h */,
+				BB2338D84476CCD548A3C001 /* vector2d.h */,
+				DEA629E249C210FDBAF91B8B /* complex.h */,
+				6687DAB08FCF4FBE3F95B661 /* vector3d.h */,
+				64990BD355C371FFA1A41E50 /* quaternion.h */,
+				79E91FE0E67CAF4DC5FF61A3 /* serialize.h */,
+				4571E33E1A04AF96E03CD270 /* uglyfont.h */,
+				F2C459AA349181A7FA6E81EE /* indexed_array.h */,
+				6D2A7358D50478E67F776ECF /* cad_obj2d.h */,
+				0C71820DC9D8B3DFBA4CCFEB /* cad2d_interface.h */,
+				1B9C6C1D62E60EF0561E6913 /* cad_com.h */,
+				E4B52598D2D929F0067AE634 /* drawer_cad.h */,
+				25B9405EAA1C0E5445944989 /* cad */,
+				5643457127E5F6E40BEE72DB /* mesher2d.h */,
+				1829B9AAE8837759A041519F /* mesh3d.h */,
+				A9029F1E10D113C2EF7C2A23 /* mesh_primitive.h */,
+				C8D28B15AD2729B9ABAB8385 /* mesh_interface.h */,
+				FE5D24776B8CDC9BD4F9DDC1 /* drawer_msh.h */,
+				3FC9F49D9429CD3AD5375FEB /* msh */,
+				7CCD7BF68B3D9F2C68B14BDC /* objset.h */,
+				01103B87B13109EB38B51B8C /* node_ary.h */,
+				61E688332ED55003327BA80C /* field_world.h */,
+				9395B78432B0CBE4B21ADFCB /* field.h */,
+				40226C4714A8368746DD9219 /* eval.h */,
+				E98D9B007411D6E0D94C30B0 /* elem_ary.h */,
+				4CA654210F9C72F183BCD55A /* drawer_field.h */,
+				0D55C267F7C20231AF54930B /* drawer_field_vector.h */,
+				0FB62E45CE4731423481B8BF /* drawer_field_edge.h */,
+				7CF3B3AB7BDE2A2A1AA3D594 /* drawer_field_face.h */,
+				760443E92DB198FB19EC7ADA /* drawer_field_image_based_flow_vis.h */,
+				E8B1E7ADF60BC3D1E9C61CDA /* drawer_field_streamline.h */,
+				FF36CC38AAB93021C1F23D8A /* matvec */,
+				43A3E14E24DD393782C4CBB4 /* ls */,
+				E6D5FF26BBE5BD1AB02865AF /* femls */,
+				240A5D90EB0081871E14CE4B /* linearsystem_interface_eqnsys.h */,
+				C88E79DC0CBF2DA7C69AC93A /* femeqn */,
+				A3BB3D91CDBBE51CA4A07773 /* eqnsys.h */,
+				29C7ACE5EA85BF00F339FC45 /* eqnsys_scalar.h */,
+				3F995643AD3AA6D74CD209EA /* eqnsys_solid.h */,
+				27433E5581C0AEA4F2D2C6C6 /* eqnsys_fluid.h */,
+				6B845325E640C4C5916E02F9 /* eqnsys_shell.h */,
+			);
+			name = delfem;
+			sourceTree = "<group>";
+		};
+		A916B710127F3CBD00EFA01C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A916B70F127F3CBD00EFA01C /* libdfm_core.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFA3A29D17FD123C907B6E35 /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				DCB318ABE7A96AA736975C2A /* .. */,
+			);
+			name = ..;
+			sourceTree = "<group>";
+		};
+		C88E79DC0CBF2DA7C69AC93A /* femeqn */ = {
+			isa = PBXGroup;
+			children = (
+				C779F286ED8CCA9BB55A1B53 /* ker_emat_hex.h */,
+				41D2E6B4EBDD76FF78450148 /* ker_emat_tet.h */,
+				2E0869E8B9769C1315A4400F /* ker_emat_bar.h */,
+				E44439B14CD0149CE5FB4FA8 /* ker_emat_quad.h */,
+				D0A9D4C42D4FFEF341F305FF /* ker_emat_tri.h */,
+				EB51FF98B4DE1722C5336995 /* eqn_poisson.h */,
+				9DEDD0D81DEDAA9332D3B42E /* eqn_diffusion.h */,
+				0646A43EC452C209098F91CD /* eqn_advection_diffusion.h */,
+				A0197D190F2561D14CBFE952 /* eqn_linear_solid2d.h */,
+				C7F75DFE67C9FD04675CBC40 /* eqn_linear_solid3d.h */,
+				C4BA1B707CABD0BC4628EA7D /* eqn_st_venant.h */,
+				17CCCB4E9E057BE1BE82D84B /* eqn_hyper.h */,
+				BF869785B5A0F2D68866F926 /* eqn_navier_stokes.h */,
+				8D42D4499B3B2CAF8B88384C /* eqn_stokes.h */,
+				F6558FD28B13B988EAF076AC /* eqn_dkt.h */,
+				9556BFC026A8B6C2EE1847ED /* eqn_helmholtz.h */,
+			);
+			name = femeqn;
+			sourceTree = "<group>";
+		};
+		D1C29F4620DF7F660F3C2B30 /* com */ = {
+			isa = PBXGroup;
+			children = (
+				A00D436C6E45349B5487A0E7 /* drawer.cpp */,
+				DC54959810DEFD4CA6AD3AD4 /* vector3d.cpp */,
+				542A01B400909BBAD1740321 /* uglyfont.cpp */,
+				061ED02B58DB5C7913C4F07A /* quaternion.cpp */,
+				D474FA655BF38137D8E2D871 /* drawer_gl_utility.cpp */,
+			);
+			name = com;
+			sourceTree = "<group>";
+		};
+		D60C6E552C087BC210B85E35 /* msh */ = {
+			isa = PBXGroup;
+			children = (
+				4A90B639BB8071DB93726CA7 /* meshkernel2d.cpp */,
+				8F5E9299CC8824B45637427E /* meshkernel3d.cpp */,
+				8FEA5EED538D907BF6014D3F /* mesher2d.cpp */,
+				E8DD2091189900FCACF96911 /* mesher3d.cpp */,
+				9FBA59FC61179AB0D0F96B0B /* mesh3d.cpp */,
+				744966663BAFC543E1D4C75A /* drawer_msh.cpp */,
+				348057E7CCD166E52C1641B0 /* mesh3d_extrude.cpp */,
+			);
+			name = msh;
+			sourceTree = "<group>";
+		};
+		DCB318ABE7A96AA736975C2A /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				F0BDEA78D90C87903ED83CE9 /* src */,
+			);
+			name = ..;
+			sourceTree = "<group>";
+		};
+		E11BEA6A53EB481066C2098B /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				224019A18C6B1708E4F7A1B1 /* include */,
+			);
+			name = ..;
+			sourceTree = "<group>";
+		};
+		E6D5FF26BBE5BD1AB02865AF /* femls */ = {
+			isa = PBXGroup;
+			children = (
+				7301BD9042D5CD29FE70B98D /* zsolver_ls_iter.h */,
+				23ADF2E84C4F49DA03208CB1 /* zpreconditioner.h */,
+				0D78C03D32AB01948D1D7868 /* zlinearsystem.h */,
+				8FCEA16B86EBD1762D614AF6 /* linearsystem_fieldsave.h */,
+				8631F1CE22F03A62CC609D00 /* linearsystem_field.h */,
+			);
+			name = femls;
+			sourceTree = "<group>";
+		};
+		ED1E82605DD74B483AF3C982 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				C374004D45E01156F931B37D /* QtOpenGL.framework */,
+				9B36DA7E32F0304E780E7972 /* QtGui.framework */,
+				7BC2E65A5E699A5E5D834CA2 /* QtCore.framework */,
+				DA18A6831232F53228631AD1 /* OpenGL.framework */,
+				C6766F86E49E9C8701C8E637 /* AGL.framework */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		F0BDEA78D90C87903ED83CE9 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				D1C29F4620DF7F660F3C2B30 /* com */,
+				749A360543F24CD667C366E5 /* cad */,
+				D60C6E552C087BC210B85E35 /* msh */,
+				87104C304DE73E878476BB4C /* femfield */,
+				07488B5E65364584B442B437 /* matvec */,
+				66A234DDFCCF28C678DA6B91 /* ls */,
+				307153D2AC6B27C80259743F /* femls */,
+				5E3E8085F2E80B7F77BBB2C9 /* femeqn */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		FB61758D0F0FDA4BA867C3D5 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				BFA3A29D17FD123C907B6E35 /* .. */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		FF36CC38AAB93021C1F23D8A /* matvec */ = {
+			isa = PBXGroup;
+			children = (
+				ED6688C2766138BC3038AF32 /* ker_mat.h */,
+				2AB5498C35E235D6873A7FEB /* solver_mat_iter.h */,
+				6DEE8E96033E2718D48E0EFE /* matfrac_blkcrs.h */,
+				15575245259C81DB56D6A210 /* mat_blkcrs.h */,
+				460B1DB46C7776DD51ACD38A /* matdia_blkcrs.h */,
+				4DD676B20522C2A4199DC6AF /* ordering_blk.h */,
+				7A80802988C0C3A93458355A /* matprecond_blk.h */,
+				EF1C09D495EFBCF3A6AC3760 /* matdiainv_blkdia.h */,
+				2579F6B6B3942484C76B6249 /* matdiafrac_blkcrs.h */,
+				07AE4454662496A412B9AB16 /* diamat_blk.h */,
+				2AB5498C35E235D6873A7FEB /* solver_mat_iter.h */,
+				87A100C0862A63E97D82CB5F /* solver_mg.h */,
+				CE8791B32C06376F4F54D2B1 /* matprolong_blkcrs.h */,
+				B22BCE9BF0AB0635583B72EC /* zvector_blk.h */,
+				2805F292A09F32BAB24EBF37 /* zsolver_mat_iter.h */,
+				706410A1B73F55FEB6227F7C /* zmatprecond_blk.h */,
+				BB502302919E225ADEABC18E /* zmatdiafrac_blkcrs.h */,
+				7BBD9A8EF89628C6BC5F3C8C /* zmatdia_blkcrs.h */,
+				1864BA341C1109E0E3D8529E /* zmat_blkcrs.h */,
+			);
+			name = matvec;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24AC2C6EA67F34D80BB0C1D4 /* libdfm_core */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A916B71E127F3CD100EFA01C /* Build configuration list for PBXNativeTarget "libdfm_core" */;
+			buildPhases = (
+				D7BA7D76DAB5DD13389D6332 /* Qt Qmake */,
+				A0A52A2ADF7A1E2A99738674 /* Qt Preprocessors */,
+				F6069D5A5DA8AA28EDB8B3C6 /* Project Copy */,
+				C29B8785722055ED95EF7B57 /* Build Sources */,
+				2A1043669E6E5A7426EA502A /* Frameworks & Libraries */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = libdfm_core;
+			productInstallPath = ../;
+			productName = libdfm_core;
+			productReference = A916B70F127F3CBD00EFA01C /* libdfm_core.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91B15E841AA80083484172DE /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 2A951308CDB28F104D0A4BD2 /* Build configuration list for PBXProject "dfm_core" */;
+			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 05596AB53D8D521C69802C27 /* dfm_core */;
+			productRefGroup = A916B710127F3CBD00EFA01C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24AC2C6EA67F34D80BB0C1D4 /* libdfm_core */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A0A52A2ADF7A1E2A99738674 /* Qt Preprocessors */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "Qt Preprocessors";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/nobuyuki/develop/DelFEM/lib/qtlib_core -f dfm_core.xcodeproj/qt_preprocess.mak";
+		};
+		D7BA7D76DAB5DD13389D6332 /* Qt Qmake */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "Qt Qmake";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/nobuyuki/develop/DelFEM/lib/qtlib_core -f dfm_core.xcodeproj/qt_makeqmake.mak";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C29B8785722055ED95EF7B57 /* Build Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				941396A4ED3B44368F318EA1 /* drawer.cpp in Build Sources */,
+				F294C8EA72AE5FD3DF3D183E /* vector3d.cpp in Build Sources */,
+				B41B486EAA17FDE5C30404C5 /* uglyfont.cpp in Build Sources */,
+				672A11DC5D81B08EFD1C75EF /* quaternion.cpp in Build Sources */,
+				550630549443203CAFC7D708 /* drawer_gl_utility.cpp in Build Sources */,
+				5DC22538FF0F8A2B242B060D /* cad_obj2d.cpp in Build Sources */,
+				AD387EBB97C84B3546E1BA39 /* cad_elem2d.cpp in Build Sources */,
+				EFF68D91C8428FA64116A2B7 /* brep.cpp in Build Sources */,
+				3FBC59D4ED4D2B613C3A272E /* drawer_cad.cpp in Build Sources */,
+				F7438DE31530178D8C60208A /* brep2d.cpp in Build Sources */,
+				AADBD468E6415C0011D4E3DC /* meshkernel2d.cpp in Build Sources */,
+				A845EF096262B0A480F721D7 /* meshkernel3d.cpp in Build Sources */,
+				F91D119DFB260DEF34C8E776 /* mesher2d.cpp in Build Sources */,
+				CA478ED7E3FD6D8E3261319F /* mesher3d.cpp in Build Sources */,
+				9178A8D1C441651A5DE8DA8E /* mesh3d.cpp in Build Sources */,
+				487613AEE9C464ADF0C81BDE /* drawer_msh.cpp in Build Sources */,
+				93B6FE0FCB1F51B3EE1BE409 /* mesh3d_extrude.cpp in Build Sources */,
+				DC426808FA2061CCAAF471F3 /* node_ary.cpp in Build Sources */,
+				5C624DFE37B9F5ECCB2E8808 /* field_world.cpp in Build Sources */,
+				FC61E1A992550B534D53CEE6 /* field.cpp in Build Sources */,
+				02DDBA9B4E7A1044C949D0FB /* eval.cpp in Build Sources */,
+				DD3A3231B9A900D2A02612C4 /* elem_ary.cpp in Build Sources */,
+				96FD29546D1AD495F4700ABF /* drawer_field.cpp in Build Sources */,
+				54E559F4FE527FDB44C24443 /* drawer_field_vector.cpp in Build Sources */,
+				32EFD083A39B72F108372E5E /* drawer_field_edge.cpp in Build Sources */,
+				F1EA55AAF4F184025CD1249F /* drawer_field_face.cpp in Build Sources */,
+				683D3EAC432CB0418D2016AC /* drawer_field_image_based_flow_vis.cpp in Build Sources */,
+				92A57C47EAFD34A26C067EA0 /* drawer_field_streamline.cpp in Build Sources */,
+				14F0E817F48BE13FD7EF9944 /* matdiafrac_blkcrs.cpp in Build Sources */,
+				905172714EB7FF573EDC1B38 /* matdia_blkcrs.cpp in Build Sources */,
+				2ABC84DC7875CE70919D8E52 /* matfrac_blkcrs.cpp in Build Sources */,
+				1E788605D34ABD63FC4770F3 /* mat_blkcrs.cpp in Build Sources */,
+				E0616929AF793C90257546E9 /* vector_blk.cpp in Build Sources */,
+				454C2FEBD1D29B703E6FBEE4 /* solver_mat_iter.cpp in Build Sources */,
+				20AE43C8F7220BFBC4ACBAD4 /* ordering_blk.cpp in Build Sources */,
+				77D9016DA55CF08AA54272D5 /* matprolong_blkcrs.cpp in Build Sources */,
+				81F1963EC6A87CB04CF18AF3 /* matdiainv_blkdia.cpp in Build Sources */,
+				04305F54DA215E07552AEC28 /* solver_mg.cpp in Build Sources */,
+				91511D160BED7BFEBCEC1D05 /* zvector_blk.cpp in Build Sources */,
+				AA8724A860F15D35A947A31B /* zsolver_mat_iter.cpp in Build Sources */,
+				60151BD7851DD3BB064C1B2F /* zmatdiafrac_blkcrs.cpp in Build Sources */,
+				8A0AEBCF3FBCE895F6EEED78 /* zmatdia_blkcrs.cpp in Build Sources */,
+				741DF0C3D1D81C1FD550D418 /* zmat_blkcrs.cpp in Build Sources */,
+				159E0E1F24C5CAFB11EEC2F3 /* preconditioner.cpp in Build Sources */,
+				203B223BBCA7356FA710117B /* linearsystem.cpp in Build Sources */,
+				F1BEE89DD9F0F2485EA6ECB3 /* solver_ls_iter.cpp in Build Sources */,
+				BA552666016DD50BC19EB11F /* eigen_lanczos.cpp in Build Sources */,
+				1E8BC4CCB845378D5DB937E5 /* zsolver_ls_iter.cpp in Build Sources */,
+				EA5083F3BBF5EB70A6E09AA0 /* zlinearsystem.cpp in Build Sources */,
+				AD427C9E9D507CF14B87E413 /* linearsystem_fieldsave.cpp in Build Sources */,
+				92BBC34963EA55DFFB7137DA /* linearsystem_field.cpp in Build Sources */,
+				6BECA07F3CBF94FEBD75FCF7 /* ker_emat_tri.cpp in Build Sources */,
+				D63F3F6C6920AD7BDC18C5EA /* eqn_poisson.cpp in Build Sources */,
+				EA8CE292AE9FD909A153494F /* eqn_diffusion.cpp in Build Sources */,
+				698F9DD0672C678FAFD81999 /* eqn_advection_diffusion.cpp in Build Sources */,
+				9ECEE7EFAFFC740C891EEBD7 /* eqn_st_venant.cpp in Build Sources */,
+				2525F2FDF5BDD35B5D7D0B0A /* eqn_linear_solid2d.cpp in Build Sources */,
+				1F857E40A0FBFBDD2160F2DC /* eqn_linear_solid3d.cpp in Build Sources */,
+				70BB05866924ABCD8C1666A1 /* eqn_hyper.cpp in Build Sources */,
+				B4C21B6B618C1EEBEBECD368 /* eqn_navier_stokes.cpp in Build Sources */,
+				FCBCD42E8AFE5E0C461FB0F5 /* eqn_stokes.cpp in Build Sources */,
+				1F2DAD665EBF4C9517CEE6F4 /* eqn_dkt.cpp in Build Sources */,
+				35666AD22E31962E7B9AD4D8 /* eqn_helmholtz.cpp in Build Sources */,
+				E2856FCB4824C049ED07201E /* eqnsys.cpp in Build Sources */,
+				9BC69494D5A6877483B47567 /* eqnsys_scalar.cpp in Build Sources */,
+				D962B8C3F4141E6EFAB12526 /* eqnsys_shell.cpp in Build Sources */,
+				A11E9E5F16F877993E0C6B60 /* eqnsys_fluid.cpp in Build Sources */,
+				E3E8DD671F0347F279AF1722 /* eqnsys_solid.cpp in Build Sources */,
+			);
+			name = "Build Sources";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8DB1DD96F65B1BF1FFC506E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+			};
+			name = Debug;
+		};
+		95E1EB2E5DDD587BE5B3E548 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SSE41_EXTENSIONS = YES;
+				GCC_ENABLE_SSE42_EXTENSIONS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = NDEBUG;
+			};
+			name = Release;
+		};
+		A916B716127F3CBD00EFA01C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = i386;
+				BUILD_ROOT = /Users/nobuyuki/develop/DelFEM/lib/qtlib_core;
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1.0;
+				DYLIB_CURRENT_VERSION = 1.0.0;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				HEADER_SEARCH_PATHS = (
+					/Library/Frameworks/QtCore.framework/Versions/4/Headers,
+					/usr/include/QtCore,
+					/Library/Frameworks/QtGui.framework/Versions/4/Headers,
+					/usr/include/QtGui,
+					/Library/Frameworks/QtOpenGL.framework/Versions/4/Headers,
+					/usr/include/QtOpenGL,
+					/usr/include,
+					../../include,
+					/System/Library/Frameworks/OpenGL.framework/Versions/A/Headers,
+					/System/Library/Frameworks/AGL.framework/Headers,
+					.,
+					/usr/local/include,
+					/System/Library/Frameworks/CarbonCore.framework/Headers,
+					"/usr/local/Qt4.6/mkspecs/macx-xcode",
+				);
+				INSTALL_DIR = /Users/nobuyuki/develop/DelFEM/lib/qtlib_core/../;
+				INSTALL_PATH = "";
+				LEXFLAGS = "";
+				LIBRARY_SEARCH_PATHS = (
+					/Library/Frameworks,
+					/System/Library/Frameworks/,
+				);
+				LIBRARY_STYLE = DYNAMIC;
+				MACH_O_TYPE = mh_dylib;
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-g",
+					"-Wall",
+					"-W",
+					"-fPIC",
+					"-DQT_OPENGL_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+					"-DQT_SHARED",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-g",
+					"-Wall",
+					"-W",
+					"-fPIC",
+					"-DQT_OPENGL_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+					"-DQT_SHARED",
+				);
+				OTHER_LDFLAGS = (
+					"-headerpad_max_install_names",
+					"-single_module",
+					"-dynamiclib",
+					"-L/Library/Frameworks",
+					"-F/Library/Frameworks",
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = libdfm_core;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "";
+				YACCFLAGS = "-d";
+			};
+			name = Debug;
+		};
+		A916B717127F3CBD00EFA01C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = i386;
+				BUILD_ROOT = /Users/nobuyuki/develop/DelFEM/lib/qtlib_core;
+				COPY_PHASE_STRIP = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1.0;
+				DYLIB_CURRENT_VERSION = 1.0.0;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				HEADER_SEARCH_PATHS = (
+					/Library/Frameworks/QtCore.framework/Versions/4/Headers,
+					/usr/include/QtCore,
+					/Library/Frameworks/QtGui.framework/Versions/4/Headers,
+					/usr/include/QtGui,
+					/Library/Frameworks/QtOpenGL.framework/Versions/4/Headers,
+					/usr/include/QtOpenGL,
+					/usr/include,
+					../../include,
+					/System/Library/Frameworks/OpenGL.framework/Versions/A/Headers,
+					/System/Library/Frameworks/AGL.framework/Headers,
+					.,
+					/usr/local/include,
+					/System/Library/Frameworks/CarbonCore.framework/Headers,
+					"/usr/local/Qt4.6/mkspecs/macx-xcode",
+				);
+				INSTALL_DIR = /Users/nobuyuki/develop/DelFEM/lib/qtlib_core/../;
+				INSTALL_PATH = "";
+				LEXFLAGS = "";
+				LIBRARY_SEARCH_PATHS = (
+					/Library/Frameworks,
+					/System/Library/Frameworks/,
+				);
+				LIBRARY_STYLE = DYNAMIC;
+				MACH_O_TYPE = mh_dylib;
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-g",
+					"-Wall",
+					"-W",
+					"-fPIC",
+					"-DQT_OPENGL_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+					"-DQT_SHARED",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-g",
+					"-Wall",
+					"-W",
+					"-fPIC",
+					"-DQT_OPENGL_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+					"-DQT_SHARED",
+				);
+				OTHER_LDFLAGS = (
+					"-headerpad_max_install_names",
+					"-single_module",
+					"-dynamiclib",
+					"-L/Library/Frameworks",
+					"-F/Library/Frameworks",
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = libdfm_core;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "";
+				YACCFLAGS = "-d";
+			};
+			name = Release;
+		};
+		A916B718127F3CBD00EFA01C /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = i386;
+				BUILD_ROOT = /Users/nobuyuki/develop/DelFEM/lib/qtlib_core;
+				DYLIB_COMPATIBILITY_VERSION = 1.0;
+				DYLIB_CURRENT_VERSION = 1.0.0;
+				HEADER_SEARCH_PATHS = (
+					/Library/Frameworks/QtCore.framework/Versions/4/Headers,
+					/usr/include/QtCore,
+					/Library/Frameworks/QtGui.framework/Versions/4/Headers,
+					/usr/include/QtGui,
+					/Library/Frameworks/QtOpenGL.framework/Versions/4/Headers,
+					/usr/include/QtOpenGL,
+					/usr/include,
+					../../include,
+					/System/Library/Frameworks/OpenGL.framework/Versions/A/Headers,
+					/System/Library/Frameworks/AGL.framework/Headers,
+					.,
+					/usr/local/include,
+					/System/Library/Frameworks/CarbonCore.framework/Headers,
+					"/usr/local/Qt4.6/mkspecs/macx-xcode",
+				);
+				INSTALL_DIR = /Users/nobuyuki/develop/DelFEM/lib/qtlib_core/../;
+				INSTALL_PATH = "";
+				LEXFLAGS = "";
+				LIBRARY_SEARCH_PATHS = (
+					/Library/Frameworks,
+					/System/Library/Frameworks/,
+				);
+				LIBRARY_STYLE = DYNAMIC;
+				MACH_O_TYPE = mh_dylib;
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-g",
+					"-Wall",
+					"-W",
+					"-fPIC",
+					"-DQT_OPENGL_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+					"-DQT_SHARED",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-g",
+					"-Wall",
+					"-W",
+					"-fPIC",
+					"-DQT_OPENGL_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+					"-DQT_SHARED",
+				);
+				OTHER_LDFLAGS = (
+					"-headerpad_max_install_names",
+					"-single_module",
+					"-dynamiclib",
+					"-L/Library/Frameworks",
+					"-F/Library/Frameworks",
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = libdfm_core;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "";
+				YACCFLAGS = "-d";
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A951308CDB28F104D0A4BD2 /* Build configuration list for PBXProject "dfm_core" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DB1DD96F65B1BF1FFC506E0 /* Debug */,
+				95E1EB2E5DDD587BE5B3E548 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A916B71E127F3CD100EFA01C /* Build configuration list for PBXNativeTarget "libdfm_core" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A916B716127F3CBD00EFA01C /* Debug */,
+				A916B717127F3CBD00EFA01C /* Release */,
+				A916B718127F3CBD00EFA01C /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91B15E841AA80083484172DE /* Project object */;
+}
